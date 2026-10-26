@@ -1,0 +1,36 @@
+.country {
+  border: 2px solid  slateblue;
+  margin: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* 1. Smooth animation er jonno transition transition */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+/* 2. Hover Effect */
+.country:hover {
+  transform: translateY(-8px); /* Card ti 8px upore uthe asbe */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15); /* Hover e shadow barle upore uthar effect ta real lage */
+  cursor: pointer;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+button{
+  padding: 9px 15px;
+  color: black;
+  background-color: rgb(15, 154, 234);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.visited {
+  background-color: bisque;
+  color: black;
+}
+
